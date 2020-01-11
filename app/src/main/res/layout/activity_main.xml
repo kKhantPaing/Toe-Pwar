@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafad2"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/app_bar" />
+    <!--<ViewFlipper-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:id="@+id/viewFlipper">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/home"/>-->
+
+
+    <!--</ViewFlipper>-->
+
+    <Button
+        android:id="@+id/btn_husbandry"
+        android:layout_width="330dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/img_husbandry_bg"
+        android:text="@string/husbandry"
+        android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_DiseaseAndVaccine"
+            android:layout_width="330dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/img_disease_bg"
+            android:text="@string/diseaseAndVaccire"
+            android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn_ToDoAndNotToDo"
+        android:layout_width="330dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/img_knowledge_bg"
+        android:text="@string/toDoAndNotToDo"
+        android:textSize="20sp" />
+
+    <Button
+            android:id="@+id/btn_BuyAndSale"
+        android:layout_width="330dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+            android:background="@drawable/img_buy_sale_bg"
+            android:layout_gravity="center"
+            android:text="@string/buyAndSale" />
+
+
+
+</LinearLayout>

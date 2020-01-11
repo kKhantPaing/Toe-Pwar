@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_husbandry"
+            android:title="@string/husbandry" />
+        <item
+            android:id="@+id/nav_diseaseAndVaccine"
+            android:title="@string/diseaseAndVaccire" />
+        <item
+            android:id="@+id/nav_toDoAndNotToDo"
+            android:title="@string/toDoAndNotToDo" />
+        <item
+            android:id="@+id/nav_buyAndSale"
+            android:title="@string/buyAndSale" />
+    </group>
+
+    <item android:title="အဆက္အသြယ္">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ဆက္သြယ္ရန္" />
+        </menu>
+    </item>
+
+</menu>

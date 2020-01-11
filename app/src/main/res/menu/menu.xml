@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="အေၾကာင္းအရာ"
+        android:id="@+id/about"/>
+
+    <item android:title="တြက္ခ်က္ရန္"
+        android:id="@+id/calc_menu"/>
+
+    <item android:title="ထြက္မယ္"
+        android:id="@+id/exit"/>
+</menu>

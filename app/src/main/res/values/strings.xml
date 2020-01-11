@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ၾကက္ေမြးျမဴေရး</string>
+    <string name="husbandry">ၾကက္ေမြးျမဴေရး</string>
+    <string name="diseaseAndVaccire">ေရာဂါ ႏွင့္ ေဆးဝါးမ်ား</string>
+    <string name="toDoAndNotToDo">သတင္းအခ်က္အလက္</string>
+    <string name="buyAndSale">ေဈးကြက္</string>
+
+    <array name="title_array">
+        <item>@string/husbandry</item>
+        <item>@string/diseaseAndVaccire</item>
+        <item>@string/toDoAndNotToDo</item>
+        <item>@string/buyAndSale</item>
+    </array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
